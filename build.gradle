@@ -26,8 +26,8 @@ subprojects {
         testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$jupiterVersion"
         testImplementation "com.tngtech.archunit:archunit:$archUnitVersion"
 
-        annotationProcessor "org.mapstruct:mapstruct-processor:1.4.2.Final"
-        implementation "org.mapstruct:mapstruct:1.4.2.Final"
+        annotationProcessor "org.mapstruct:mapstruct-processor:$mapstructVersion"
+        implementation "org.mapstruct:mapstruct:$mapstructVersion"
     }
     test {
         useJUnitPlatform()
